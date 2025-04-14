@@ -13,5 +13,7 @@ class Question(BaseModel):
 
     #여기는 orm 데이터 구조로 반환함을 설정
     #이 전처리를 해줘야 데이터가 깔끔하네 맵핑됨
+    """
     class Config:
         orm_mode = True
+    """

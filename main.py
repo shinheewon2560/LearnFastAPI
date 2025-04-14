@@ -15,14 +15,14 @@ origins = [
 #frontend설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 """
-@app.get("/hello")
+@app.get("")
 def hello():
     return {"message": "안녕하세요 파이보"}
 """

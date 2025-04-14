@@ -12,7 +12,7 @@ from domain.question import question_schema, question_CRUD
 
 #URL로 호출할 때 경로를 미리 지정
 router = APIRouter(
-    prefix = "/api/question",
+    prefix = "/fastapi/question",
 )
 
 #schema를 이용해 반환값이 Question schema로 구성된 리스트라는 것을 명시
